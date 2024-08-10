@@ -148,7 +148,7 @@ align-items: center;
 }
 .watchBanner{
   background-color: var(--bg-color);
-  color: black;
+  color: rgb(98, 145, 215);
   padding: 8px 143px;
   font-weight: bold;
   border-bottom: 1px solid darkgray;
@@ -161,7 +161,7 @@ align-items: center;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: black;
+  background: rgb(58, 9, 155);
   color: white;
   font-family: 'Bona Nova', serif;
   font-size: '18px';
@@ -170,13 +170,13 @@ align-items: center;
 /* NAVIGATION SECTION  */
 .nav a{
   text-decoration: none;
-  color: black;
+  color: rgb(234, 235, 239);
 }
 .nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: white;
+  background-color: rgb(58, 9, 155);
   width: 200px;
   border-bottom: 1px solid gray;
 }
@@ -353,7 +353,7 @@ align-items: center;
 .bannerPic{
   height: 500px;
   width: 100%;
-  background-color: rgb(67, 99, 179);
+  background-color: rgba(0, 0, 0, 0);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -363,7 +363,7 @@ align-items: center;
 }
 .homeBannerEvents{
   /* display: flex; */
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: rgba(0, 0, 0, 0);
   color: rgb(62, 81, 148);
   padding: 8px 143px;
   font-weight: bold;

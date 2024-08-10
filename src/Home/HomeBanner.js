@@ -23,7 +23,7 @@ function HomeBanner() {
         <div className='homeBannerEvents'>
           <div
             className='homeBannerSection1'
-            style={{ backgroundColor: 'black' }}
+            style={{ backgroundColor: 'transparent' }}
           >
             <Link className='myLink listner' to={'/radio'}>
               <span className='listenIcon'>
