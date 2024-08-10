@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/radio-lsr-fm.github.io/static/css/main.b618b680.css",
+    "main.js": "/radio-lsr-fm.github.io/static/js/main.e49f000b.js",
+    "index.html": "/radio-lsr-fm.github.io/index.html",
+    "main.b618b680.css.map": "/radio-lsr-fm.github.io/static/css/main.b618b680.css.map",
+    "main.e49f000b.js.map": "/radio-lsr-fm.github.io/static/js/main.e49f000b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b618b680.css",
+    "static/js/main.e49f000b.js"
+  ]
+}
