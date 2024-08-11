@@ -75,11 +75,7 @@ useEffect( () => {
                 Accueil
               </Link>
           </li>
-          <li className='nav_item'>
-            <Link className='nav_link' to={'/about'}>
-              Qui sommes-nous?
-            </Link>
-          </li>
+          
           <li className='nav_item'>
             <Link className='nav_link' to={'/radio'}>
               Radio
@@ -110,6 +106,11 @@ useEffect( () => {
               Podcast
             </Link>
           </li>
+          <li className='nav_item'>
+            <Link className='nav_link' to={'/about'}>
+              Qui sommes-nous?
+            </Link>
+          </li>
         </ul>
         <div className={toggleIcon} onClick={navToggler}>
           <div className='line1'></div>
@@ -121,11 +122,7 @@ useEffect( () => {
         <Link className='nav_link' to={'/'}>
           <li className='nav_item'>Accueil</li>
         </Link>
-        <li className='nav_item'>
-          <Link className='nav_link' to={'/about'}>
-            Qui sommes nous?
-          </Link>
-        </li>
+        
         <li className='nav_item'>
           <Link className='nav_link' to={'/radio'}>
             Radio
@@ -146,6 +143,11 @@ useEffect( () => {
         <Link className='nav_link' to={'/podcast'}>
           <li className='nav_item'>Podcast</li>
         </Link>
+        <li className='nav_item'>
+          <Link className='nav_link' to={'/about'}>
+            Qui sommes nous?
+          </Link>
+        </li>
       </div>
     </div>
   );

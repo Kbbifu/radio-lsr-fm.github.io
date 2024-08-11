@@ -85,7 +85,7 @@ function Radio() {
               >
                 Up Next:
               </span>
-              <span>Edition de Midi</span>
+              <span>Journal</span>
             </h4>
           </div>
         </div>
@@ -93,7 +93,8 @@ function Radio() {
 
       <div className='radio'>
         { <iframe
-          src='https://zeno.fm/player/himma-radio-91-1fm'
+        
+          src='https://zeno.fm/radio/living-stone-radio-nqu6/'
           width='100%'
           height='100%'
           frameborder='0'

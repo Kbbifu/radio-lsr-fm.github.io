@@ -610,7 +610,7 @@ align-items: center;
 .presentersSlider li{
   list-style: none;
   /* margin: 5px 0px; */
-  color: white;
+  color: rgb(158, 4, 4);
 }
 
 /* presenter  */
