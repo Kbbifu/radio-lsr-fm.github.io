@@ -223,7 +223,7 @@ However, despite these challenges which can be found in many countries throughou
             <Route path='/podcast' element={<Podcast />} />
             <Route path='*' element={<NoteFound />} />
             <Route path='/admin' element={<AdHome/>} />
-            </Routes>
+          </Routes>
         </DataContext.Provider>
         <Footer />
       </BrowserRouter>
