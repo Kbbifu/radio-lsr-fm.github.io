@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '../Nav';
+import HomeBanner from '../HomeBanner';
 import {
   FaInstagram,
   FaFacebookF,
@@ -13,6 +14,7 @@ function Contact (){
   return (
     <div>
       <Nav />
+      <HomeBanner />
       <div className='contact-container'>
         <div className='contact'>
           <h1 style={{ color: 'black' }}>Contactez-Nous</h1>

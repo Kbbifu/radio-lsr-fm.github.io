@@ -1,7 +1,7 @@
 import React, {useState, useContext, useEffect} from 'react'
 import { DataContext } from '../App';
 import { Link } from 'react-router-dom';
-
+import HomeBanner from './HomeBanner';
 
 function Presenters() {
 
@@ -10,6 +10,7 @@ function Presenters() {
     width: '500px',
     height: '280px',
     margin: '0, auto',
+    backgroundColor:'whitesmoke',
   }
   const category = useContext(DataContext);
   const [presenter, setPresenter] = useState([]);
@@ -33,7 +34,7 @@ function Presenters() {
   return (
     <div>
       {/* presenters section  */}
-
+      
       <div className='presenterContainer'>
         <div className='presenterHeader mb-header'>
           <h1 className='headersFont'>Nos Animateurs</h1>

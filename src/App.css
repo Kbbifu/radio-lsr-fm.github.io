@@ -17,11 +17,11 @@
   --yellow-bg-color: #2C2E3E;
 } */
 :root{
-  --bg-color: #2B7A0B;
-  --second-bg-color: #5BB318;
-  --text-color: #F1F6F9;
-  --third-bg-color: #7DCE13;
-  --yellow-bg-color: #dbc51c;
+  --bg-color: #abcefada;
+  --second-bg-color: #d2e2f5da;
+  --text-color: #741010;
+  --third-bg-color: #d2e2f5da;
+  --yellow-bg-color: #d2e2f5da;
 }
 .govtholder{
   display: block;
@@ -103,7 +103,7 @@ align-items: center;
 }
 .hidder{
   width: 100%;
-  background-color: var(--bg-color);
+  background-color: rgb(58, 9, 155);
   padding: 6px 0px;
   position: absolute;
   top: 110px;
@@ -162,7 +162,7 @@ align-items: center;
   padding: 0;
   box-sizing: border-box;
   background: rgb(58, 9, 155);
-  color: white;
+  color: black;
   font-family: 'Bona Nova', serif;
   font-size: '18px';
 }
@@ -419,7 +419,7 @@ align-items: center;
   padding: 20px 145px;
   border-bottom: 1px solid darkgray;
   color: white;
-  background-color: var(--bg-color);
+  background-color: whitesmoke;
 }
 .gridcontainer,.showsSlider,.photogallary{
   /* width: 80%; */
@@ -521,7 +521,7 @@ align-items: center;
 .showsContainer{
   padding: 20px 143px;
   border-bottom: 1px solid darkgray;
-  background-color: var(--bg-color);
+  background-color: white;
 }
 .showsContainer-mobile{
   display: none;
@@ -559,6 +559,7 @@ align-items: center;
 
 .presenterPage-container{
   display: block;
+  background-color: white;
 }
 
 .page-container-mobile{
@@ -577,7 +578,7 @@ align-items: center;
 }
 .presentersSlider{
   /* padding: 40px; */
-  /* background-color: white; */
+   background-color: white;
    display: flex;
   /* gap: 50px;
   row-gap: 100px; */
@@ -643,6 +644,7 @@ align-items: center;
   justify-content: space-between;
   gap: 20px;
   border-top: 1px solid slategray;
+
 }
 
 
@@ -677,7 +679,7 @@ align-items: center;
   margin-right: 10px;
 }
 .copyRight{
-  background-color: white;
+  background-color:#741010;
   color: black;
   padding: 5px 120px;
   display: flex;
@@ -748,6 +750,7 @@ align-items: center;
 
 .headersFont{
   font-size: 23px;
+  
 }
 /* ABOUT */
 .about-container{
@@ -824,7 +827,7 @@ align-items: center;
 }
 .homeBannerEvents{
   display: flex;
-  color: white;
+  color: #ffffff;
   padding: 20px 10px 0px;
   align-items: center;
 
@@ -1084,7 +1087,7 @@ align-items: center;
 }
 .homeBannerSection1 Link span{
   font-size: 10px;
-  color: blue;
+  color: rgb(239, 239, 245);
 }
 
 .homeBannerSection2{
@@ -1113,7 +1116,7 @@ align-items: center;
   padding: 5px 20px 30px;
   border-bottom: 1px solid darkgray;
   color: white;
-  background-color: var(--bg-color);
+  background-color: whitesmoke;
 }
 .gridcontainer{
   width: 90%;

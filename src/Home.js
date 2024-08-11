@@ -2,9 +2,7 @@ import React, {useState} from 'react'
 import HomeBanner from './Home/HomeBanner'
 import Nav from './Home/Nav'
 import News from './Home/News'
-import Presenters from './Home/Presenters'
-import Shows from './Home/Shows'
-
+import About from './Home/page/About'
 export const DataContext = React.createContext();
 
 
@@ -52,9 +50,10 @@ function Home() {
     <div>
       <Nav/>
       <HomeBanner/>
+      
       <News id='#News' />
-      <Presenters id='#Presenter' />
-      <Shows id='#Shows' />
+      
+      
 
 
 

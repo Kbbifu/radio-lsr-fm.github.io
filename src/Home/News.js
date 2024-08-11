@@ -26,7 +26,7 @@ function News() {
   setVisible((previousValue) => previousValue + 4);
  }
  const headerColor = {
-  color:'white',
+  color:'black',
   overFlowY:'hidden'
  }
  const imageStyle = {

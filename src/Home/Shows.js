@@ -28,7 +28,7 @@ function Shows() {
 
       <div className='showsContainer'>
         <div className='showHeader'>
-          <h1 className='headersFont'>SHOWS</h1>
+          <h1 className='headersFont'>Nos Emissions</h1>
         </div>
         <div className='showsSlider'>
           <div className='sliderCards'>
@@ -51,7 +51,7 @@ function Shows() {
       </div>
       <div className='showsContainer-mobile'>
         <div className='showHeader'>
-          <h1 className='headersFont'>SHOWS</h1>
+          <h1 className='headersFont'>Nos Emissions</h1>
         </div>
         <div className='showsSlider'>
           <div className='sliderCards'>

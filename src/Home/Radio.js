@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Nav from './Nav';
+import HomeBanner from './HomeBanner';
 
 function Radio() {
   const [time, setTime] = useState(new Date())
@@ -14,6 +15,8 @@ function Radio() {
   return (
     <div>
       <Nav />
+      
+
       <div className='hidder'>
         <span className='radioShedule'>
           <div className='timer'>
@@ -25,7 +28,7 @@ function Radio() {
                 style={{
                   color: 'red',
                   padding: '10px 15px',
-                  backgroundColor: 'white',
+                  backgroundColor: 'transparent',
                   borderRadius: '5px',
                 }}
               >
@@ -42,7 +45,7 @@ function Radio() {
                 style={{
                   color: 'red',
                   padding: '10px 15px',
-                  backgroundColor: 'white',
+                  backgroundColor: 'transparent',
                   borderRadius: '5px',
                 }}
               >
@@ -64,7 +67,7 @@ function Radio() {
                 style={{
                   color: 'red',
                   padding: '2px 3px',
-                  backgroundColor: 'white',
+                  backgroundColor: 'transparent',
                   borderRadius: '5px',
                   marginBottom: '5px',
                 }}
@@ -78,7 +81,7 @@ function Radio() {
                 style={{
                   color: 'red',
                   padding: '2px 3px',
-                  backgroundColor: 'white',
+                  backgroundColor: 'transparent',
                   borderRadius: '5px',
                   marginBottom: '5px',
                 }}
