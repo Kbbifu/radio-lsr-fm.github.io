@@ -33,7 +33,7 @@ function Footer() {
           <h1 className='headersFont' >Site Map</h1>
           <li>
             <Link to={'/'} className='myLink'>
-              Home
+              Accueil
             </Link>
           </li>
           <li>
@@ -53,7 +53,7 @@ function Footer() {
           </li>
           <li>
             <Link to={'/news'} className='myLink'>
-              Informations
+              Actualités
             </Link>
           </li>
           <li>

@@ -30,7 +30,7 @@ function HomeBanner() {
                 <img src='Red_circle.gif' alt='' style={imageStyle} />
               </span>
               <span style={{ color: 'red', fontSize: '18px' }}>
-                Suivre en direct{' '}
+                En direct{' '}
               </span>
             </Link>
           </div>
