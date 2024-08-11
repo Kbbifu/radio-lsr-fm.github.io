@@ -2,7 +2,6 @@
   "name": "lsr_fm",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kbbifu.github.io/radio-lsr-fm.github.io/",
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
     "@testing-library/jest-dom": "^5.16.5",
